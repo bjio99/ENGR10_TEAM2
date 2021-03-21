@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./loginstyle.css" />
+    <title>DegreeHelp Registration</title>
+  </head>
+  <body>
+    <div class="texts">
+      <h1>DegreeHelp</h1>
+      <h2>Make your education plan easier.</h2>
+    </div>
+    <div class="reg-body">
+      <div class="inputBox">
+        <input
+          id="new-user-username"
+          type="text"
+          class="text"
+          required
+          onkeyup="this.setAttribute('value',this.value);"
+          value=""
+        />
+        <label>User Name</label>
+      </div>
+
+      <div class="inputBox">
+        <input
+          id="new-user-password"
+          type="password"
+          class="password"
+          required
+          onkeyup="this.setAttribute('value',this.value);"
+          value=""
+        />
+        <label>Password</label>
+      </div>
+
+      <div class="inputBox">
+        <input
+          id="confirm-password"
+          type="password"
+          class="password"
+          required
+          onkeyup="this.setAttribute('value',this.value);"
+          value=""
+        />
+        <label>Confirm Your Password</label>
+      </div>
+
+      <form>
+        <h4>What Is Your Major?</h4>
+        <input id="java" type="checkbox" name="major" class="checksize" /><label
+          >JAVA</label
+        >
+        <input id="c++" type="checkbox" name="major" class="checksize" /><label
+          >C++</label
+        >
+      </form>
+
+      <button id="sign-up-button" type="button" class="btn btn-primary">
+        Sign Up
+      </button>
+      <br />
+      <div class="login">
+        <h3>Already have an account?</h3>
+        <a href="./login.html">Sign In</a>
+      </div>
+    </div>
+    <script src="./uuid.js"></script>
+    <script src="./registration.js"></script>
+  </body>
+</html>

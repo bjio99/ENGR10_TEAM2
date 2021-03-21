@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.texts{
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 260px;
+    position: fixed;
+}
+
+.texts h1{
+    font-size: 60px;
+    color: #5c5c5c;
+    font-weight: 800;
+}
+
+.texts h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+
+.log-body{
+    height: 350px;
+    width: 380px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 855px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.reg-body{
+    height: 400px;
+    width: 380px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 855px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+button{
+    outline: none;
+    border-radius: 0.5px solid rgb(238, 236, 236);
+    font-size: 22px;
+    margin: 12px;
+    height: 52px;
+    width: 300px;
+}
+
+input{
+    outline: none;
+    border-radius: 0.5px solid rgb(238, 236, 236);
+    font-size: 22px;
+    margin: 12px;
+    height: 52px;
+    width: 300px;
+}
+
+.border{
+    width: 340px;
+    border: 0.01px solid rgb(206, 206, 206);
+    height: 0.5px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.login a{
+    text-decoration: none;
+    margin-top: 35px;
+    color: black;
+    position: fixed;
+    margin-left: 83px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login a:hover{
+    color:#5c5c5c;
+    font-weight: 600;
+}
+
+.login h3{
+    position: fixed;
+    margin-left: 43px;
+    margin-top: 35px;
+    font-weight: 400;
+}
+
+.inputBox{
+  position: relative;
+}
+
+.inputBox input{
+  width: 93%;
+  padding: 0.625rem 10px;
+  letter-spacing: 0.062rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.inputBox label{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 23px 0px 0px 10px;
+  font-size: 20px;
+  color: gray;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputBox input:focus ~ label{
+  top: -19px;
+  left: 17px;
+  color: #1a1a1a;
+  font-size: 13px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.inputBox input:vaild ~ label{
+  top: -19px;
+  left: 17px;
+  color: #1a1a1a;
+  font-size: 13px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.inputBox input:not([value=""]) ~ label{
+  top: -19px;
+  left: 17px;
+  color: #1a1a1a;
+  font-size: 13px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.inputBox input:focus{
+  outline: none;
+  border: 2px solid #131313;
+}
+
+button{
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 17px;
+  text-align: center;
+  float: center;
+  margin-bottom: -5px;
+}
+
+button:hover{
+  background-color: #2e2e2e;
+  box-shadow: 0 1px 1px 0 rgba(34, 34, 34, 0.45), 0 1px 3px 1px rbga(66,133,244,0.3);
+}
+
+input[type="button"]{
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #636363;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+  text-align: center;
+  float: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type="button"]:hover{
+  background-color: #858585;
+  box-shadow: 0 1px 1px 0 rgba(121, 121, 121, 0.45), 0 1px 3px 1px rbga(66,133,244,0.3);
+}
+
+.reg-body h4{
+  margin-right: 190px;
+}
+
+input.checksize{
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]+label{
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
